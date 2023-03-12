@@ -1,0 +1,159 @@
+name: shayarispot2
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at hhttp://127.0.0.1:9101?uri=http%3A%2F%2F127.0.0.1%3A33811%2FSQGVZgkl7DI%3D%2Fttps://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.4.2+12
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  font_awesome_flutter: ^10.4.0
+  path_provider: ^2.0.12
+  cached_network_image: ^3.2.3
+  localstorage: ^4.0.0+1
+  widgets_to_image: ^0.0.2
+  file_picker: ^5.2.5
+  flex_color_picker: ^3.1.0
+  flutter_tts: ^3.6.3
+  url_launcher: ^6.1.7
+  clipboard: ^0.1.3
+  share_plus: ^6.3.0
+  http: ^0.13.5
+  shimmer: ^2.0.0
+  onesignal_flutter: ^3.5.0
+  google_mobile_ads: ^2.3.0
+  store_redirect: ^2.0.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.2.19
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: explore_magic
+      fonts:
+        - asset: fonts/font_1.ttf
+    - family: foundland
+      fonts:
+        - asset: fonts/font_2.ttf
+    - family: handwriting_uwu
+      fonts:
+        - asset: fonts/font_3.ttf
+    - family: hello_christmas
+      fonts:
+        - asset: fonts/font_4.ttf
+    - family: kamehaya_bintang
+      fonts:
+        - asset: fonts/font_5.ttf
+    - family: kattalyna
+      fonts:
+        - asset: fonts/font_6.ttf
+    - family: magicpearl
+      fonts:
+        - asset: fonts/font_7.ttf
+    - family: midspicy
+      fonts:
+        - asset: fonts/font_8.ttf
+    - family: nice_chalk
+      fonts:
+        - asset: fonts/font_9.ttf
+    - family: peachy
+      fonts:
+        - asset: fonts/font_10.ttf
+    - family: resistant
+      fonts:
+        - asset: fonts/font_11.ttf
+    - family: skinny_dream
+      fonts:
+        - asset: fonts/font_12.ttf
+    - family: sophiaticha
+      fonts:
+        - asset: fonts/font_13.ttf
+    - family: tweet_lesson
+      fonts:
+        - asset: fonts/font_14.ttf
+    - family: vanilla_caramel
+      fonts:
+        - asset: fonts/font_15.otf
+
+
+
+flutter_native_splash:
+  color: "#4d37af"
+  color_dark: "#4d37af"
+  android: true
+  ios: true
+
+
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
